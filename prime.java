@@ -10,8 +10,6 @@ class PrimeNumbers{
     {
       System.out.println(" not prime number");
     }
-    else
-    {
       int i=2;
       while(i*i<=n)
         {
@@ -20,8 +18,6 @@ class PrimeNumbers{
             isPrime=false;
             break;
           }
-          else
-          {
             if(isPrime=true)
             {
               System.out.println("prime number");
@@ -32,6 +28,6 @@ class PrimeNumbers{
             }
           }
         }
-    }
-     } 
+}
+    
       
